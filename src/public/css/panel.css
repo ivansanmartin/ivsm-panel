@@ -39,6 +39,18 @@ body {
     overflow: auto;
     flex-direction: column;
 }
+
+.wrapper-layout aside nav {
+    height: auto;
+
+}
+
+
+.wrapper-layout aside nav ul .logout {
+    display: flex;
+    align-items: center;
+}
+
 .wrapper-layout aside .close-menu {
     visibility: hidden;
 }
@@ -141,7 +153,6 @@ body {
     background-color: #ffffff;
     overflow-y: auto;
     height: calc(90vh - 90px);
-    /* padding-bottom: 5rem; */
 }
 
 .layout-content .content {
@@ -173,74 +184,7 @@ body {
     background-color: var(--primary);
 }
 
-/* Views */
 
-.bg-oceanBlue {
-    background-color: var(--oceanBlue);
-}
-
-.bg-grey {
-    background-color: var(--grey);
-}
-
-.bg-blackclaire {
-    background-color: var(--blackclaire);
-}
-
-.bg-primary {
-    background-color: var(--black) !important;
-}
-
-.text-ligth {
-    color: var(--light);
-}
-
-.gymColor {
-    color: var(--primary);
-}
-
-#sidebar-container {
-    min-height: 100vh;
-    min-width: 30vh;
-}
-
-#sidebar-container .logo {
-    padding: 0.875rem 1.25rem;
-}
-
-#sidebar-container .menu {
-    width: 18rem;
-}
-
-#sidebar-container .menu .am:hover {
-    background-color: var(--primary);
-}
-
-.btn-search {
-    right: 7px;
-}
-
-.avatar {
-    font-size: 25px;
-}
-
-.list__colabs {
-    display: none;
-}
-.list__colabs--a:hover {
-    background-color: #1ea4a2;
-    border-radius: 7px;
-}
-
-#content {
-    overflow-y: auto;
-    height: calc(100vh - 150px);
-    padding-bottom: 5rem;
-}
-
-.displayNone {
-    display: none;
-}
 
 @media screen and (max-width: 750px) {
     .wrapper-layout aside .container-close {
@@ -274,9 +218,9 @@ body {
 
     .wrapper-layout aside.activated {
         display: block;
-        -webkit-box-shadow: 200px 56px 300px 200px rgba(21, 22, 35, 0.28);
-        -moz-box-shadow: 200px 56px 300px 200px rgba(21, 22, 35, 0.28);
-        box-shadow: 200px 56px 300px 200px rgba(21, 22, 35, 0.28);
+        -webkit-box-shadow: 200px 56px 300px 200px rgba(21, 22, 35, 0.33);
+        -moz-box-shadow: 200px 56px 300px 200px rgba(21, 22, 35, 0.33);
+        box-shadow: 200px 56px 300px 200px rgba(21, 22, 35, 0.33);
         z-index: 100000;
     }
 }

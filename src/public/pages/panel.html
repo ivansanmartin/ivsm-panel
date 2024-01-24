@@ -12,7 +12,7 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="panel.css">
+    <link rel="stylesheet" href="../css/panel.css">
     <title>Las Unioninas</title>
 </head>
 
@@ -21,7 +21,7 @@
     <div class="wrapper-layout">
         <aside id="vertical-menu" class="shadow bg-body-tertiary rounded">
             <h1 class="fw-bold">IVSM <span class="special-text">PANEL</span></h1>
-            <nav class="mt-5 d-flex flex-column h-100">
+            <nav class="mt-5 d-flex flex-column">
                 <ul class="d-flex flex-column gap-5 align-items-start justify-content-start">
                         <li><a href="">Option 1</a></li>
                         <li><a href="">Option 2</a></li>
@@ -30,10 +30,10 @@
                         <li><a href="">Option 5</a></li>
                         <li><a href="">Option 6</a></li>
                         <li><a href="">And more options 🡫🡫🡫</a></li>
-                </ul>
+                    <div class="logout d-flex flex-column justify-content-center">
+                        <li class="mt-5"><i class="fa-solid fa-right-from-bracket"></i><a href="{% url "logout" %}">Logout</a></li>
+                    </div>
 
-                    <ul class="d-flex flex-column justify-content-center">
-                    <li class="mt-5"><i class="fa-solid fa-right-from-bracket"></i><a href="{% url "logout" %}">Logout</a></li>
                 </ul>
 
             </nav>
@@ -82,7 +82,7 @@
 
 
 
-    <script src="panel.js"></script>
+    <script src="../js/panel.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
