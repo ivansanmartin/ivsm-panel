@@ -61,7 +61,7 @@ const panelLoadProcess = async () => {
             if (items.sub_items) {
                 const containerId = `sub_items_container_${items.id}`;
                 menuItems.innerHTML += `
-                <ul class="d-flex flex-column p-0">
+                <ul class="d-flex flex-column m-0 p-0">
                     <li><a href='#' id="anchor_sub_items_${items.id}">${items.description} <span class="arrow-effect" id="anchor_arrow_item_${items.id}">${tabler_icons.ARROW}</span></a></li>
                     <ul id="${containerId}" class="sub-items gap-4">
                        

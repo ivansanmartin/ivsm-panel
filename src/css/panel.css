@@ -186,12 +186,15 @@ body {
 
 .sub-items {
     display: flex;
-    margin-top: 30px;
     flex-direction: column;
     opacity: 0;
     max-height: 0;
     overflow: hidden;
     transition: opacity 0.5s ease, max-height 0.5s ease;
+}
+
+.sub-items li:first-child {
+    margin-top: 20px;
 }
 
 .sub-items.show {
