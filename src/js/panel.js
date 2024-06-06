@@ -99,7 +99,6 @@ const panelLoadProcess = async () => {
                 anchorItem.addEventListener("click", () => {
                     menuItem.classList.toggle("show");
                     anchorArrow.classList.toggle("arrow");
-                    console.log(anchorArrow);
                 });
             }
         });
